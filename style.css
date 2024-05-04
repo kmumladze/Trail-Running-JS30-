@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-color: rgba(49, 49, 49, 0.833);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+.controls{
+    margin-bottom: 50px;
+}
+input{
+    width: 100px;
+}
+:root{
+    --base: rgb(110, 211, 110);
+    --spacing: 10px;
+    --blur: 10px;
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: var(--blur);
+    width: 50%;
+
+}
