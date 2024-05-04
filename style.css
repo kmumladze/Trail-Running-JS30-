@@ -19,7 +19,10 @@ input{
 img{
     padding: var(--spacing);
     background: var(--base);
-    filter: var(--blur);
+    filter: blur(var(--blur));
     width: 50%;
 
+}
+.hl{
+    color: var(--base);
 }
